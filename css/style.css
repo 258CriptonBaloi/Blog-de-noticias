@@ -45,3 +45,12 @@ header, .navbar{
 .navbar-brand:hover{
     color: white;
 }
+
+#navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
