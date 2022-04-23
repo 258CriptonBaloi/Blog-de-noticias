@@ -51,3 +51,51 @@ header, .navbar{
     text-decoration: none;
     padding: 1rem .8rem;
 }
+
+/*sobre tecnologias de informacao...*/
+#about-area{
+    background-color: #F9F9F9;
+}
+
+.main-title{
+    color:var(--cor01);
+    margin: 0 0 65px 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-title{
+    font-size: 17px;
+    color: var(--cor01);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-text{
+    color: black;
+}
+
+/*categorias*/
+.category-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.category-box i, .category-box h4{
+    transition: .5s;
+}
+
+.category-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.category-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-box:hover>i, .category-box:hover>h4{
+    color: var(--cor01);
+}
