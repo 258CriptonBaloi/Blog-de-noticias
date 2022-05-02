@@ -17,6 +17,8 @@
     <script src="https://kit.fontawesome.com/882e6d267d.js" crossorigin="anonymous"></script>
     <!--Progressbar-->
     <script src="js/progressbar.min.js"></script>
+    <!--Circle-->
+    <script src="js/script.js"></script>
     <!--Parallax-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
@@ -118,22 +120,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="main-title">Explore nossas principais categorias</h3>
+                        <h3 class="main-title">Explore as principais noticias desta semana</h3>
                     </div>
                     <div class="col-md-4 category-box">
-                        <i class="fa-solid fa-shield-keyhole"></i>
-                        <h4>Segurança cibernética</h4>
-                        <p class="main-text">Conheça a importancia da segurança cibernética e saiba como aumentar a proteção de sistemas de computador contra roubo ou danos ao hardware bem como software.</p>
+                        <i class="fa-brands fa-twitter"></i>
+                        <h4>Twitter</h4>
+                        <p class="main-text">O bilionário Elon Musk,o homem mais rico do mundo, chegou ontem a acordo para comprar a rede social Twitter por 44 mil milhões de dólares - cerca de 41 mil milhões de euros , encerrando assim uma negociação que englobou ameaças hostis de aquisição antes do acordo ontem anunciado em conjunto por Musk e pelo Twitter</p>
                     </div>
                     <div class="col-md-4 category-box">
-                        <i class="fa-solid fa-user-robot"></i>
-                        <h4>Inteligência artificial</h4>
-                        <p class="main-text">A inteligência artificial é um ramo da ciência da computação que busca simular a inteligência humana em uma máquina. Os sistemas de IA são regidos por algoritmos usando técnicas como machine learning e deep learning para demonstrar comportamento “inteligente”.</p>
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <h4>Bitcoin</h4>
+                        <p class="main-text">Mesmo com queda recente, 75% das carteiras continuam com lucro, diz pesquisa. Apesar da queda no preço do bitcoin, as carteiras ainda permanecem no lucro. Essa é a conclusão de uma pesquisa feita pela companhia de análise de blockchain Glassnode. <br> <strong>1BTC= 2 447 306, 03 MZN</strong> </p>
                     </div>
                     <div class="col-md-4 category-box">
                         <i class="fa-solid fa-code"></i>
                         <h4>Linguagens de programação</h4>
-                        <p class="main-text">A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte.</p>
+                        <p class="main-text">A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte. <strong>JavaScript</strong> é uma linguagem de programação universal, multiplataforma e segue sendo a linguagem mais popular no mundo inteiro nos últimos sete anos.</p>
                     </div>
                     <div class="col-md-4 category-box">
                         <i class="fa-brands fa-linux"></i>
@@ -141,19 +143,122 @@
                         <p class="main-text">Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix</p>
                     </div>
                     <div class="col-md-4 category-box">
-                        <i class="fa-light fa-microchip"></i>
-                        <h4>A evolução da tecnologia</h4>
-                        <p class="main-text">A ideia de evolução tecnológica é criar invenções capazes de facilitar a vida da sociedade. Como o telefone, a luz elétrica, televisão, rádio, internet. Com o passar das décadas, a evolução da tecnologia se mostra cada vez mais rápida e necessária.</p>
+                        <i class="fa-brands fa-python"></i>
+                        <h4>Python</h4>
+                        <p class="main-text">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991</p>
                     </div>
                     <div class="col-md-4 category-box">
                         <i class="fa-solid fa-shuttle-space"></i>
-                        <h4>SpaceX</h4>
+                        <h4>Space X</h4>
                         <p class="main-text">Space Exploration Technologies Corp., cujo nome comercial é SpaceX, é uma fabricante estadunidense de sistemas aeroespaciais, transporte espacial e comunicações com sede em Hawthorne, Califórnia.</p>
                     </div>
                     
                 </div>                
             </div>
         </div>
+        <!--dados do blog-->
+        <div id="data-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 circle-box">
+                        <div id="circleA"></div>
+                        <p>Categorias</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleB"></div>
+                        <p>Artigos</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleC"></div>
+                        <p>Curiosidades</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleD"></div>
+                        <p>% de Confianca</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--email para newslatter-->
+        <div id="news-area">
+            <div class="container">
+                <div class="col-md-12">
+                    <h3 class="main-title">Fique por dentro das novidades</h3>
+                </div>
+                <p>Inscreva-se, e receba  noticias frescas pelo seu e-mail</p>
+                <form action="">
+                    <input type="email" class="form-control" id="email-input" name="email" placeholder="E-mail">
+                    <input type="submit" class="news-btn" value="Inscreva-se">
+                </form>
+            </div>
+        </div>
+        <!--login para newslatter-->
+        <div id="apply-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 apply-box" id="company-img"></div>
+                    <div class="col-md-6 apply-box" id="pattern-img">
+                        <h4>Cadastrar-se</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis autem voluptas nostrum. Eos quibusdam animi non voluptates voluptatem quod laudantium, aperiam culpa eaque, atque quo possimus illum, eius totam.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci explicabo vel, eaque earum.?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vero velit excepturi. Eius, enim adipisci optio cumque sed officia explicabo perspiciatis quia quisquam beatae voluptates sint natus, eum iste excepturi!</p>
+                        <a href="#" class="main-btn" id="apply-btn"> Cadastrar-se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--filtrar por categoria-->
+        <div class="filtro-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Categorias</h3>
+                    </div>
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active" id="all-btn">Todas</button>
+                        <button class="main-btn filter-btn " id="seo-btn">Google SEO</button>
+                        <button class="main-btn filter-btn " id="design-btn">UI/UX Design</button>
+                        <button class="main-btn filter-btn " id="java-btn">Java</button>
+                        <button class="main-btn filter-btn " id="js-btn">React</button>
+                        <button class="main-btn filter-btn " id="node-btn">Node Js</button>
+                        <button class="main-btn filter-btn " id="s22-btn">Samsung Galaxy S22</button>
+                    </div>
+                    <div class="col-md-4 project-box seo">
+                        <img src="imagens/seo.png " class="img-fluid" alt="Google SEO">
+                    </div>
+                    <div class="col-md-4 project-box design">
+                        <img src="imagens/design.jpg" class="img-fluid" alt="Design">
+                    </div>
+                    <div class="col-md-4 project-box java">
+                        <img src="imagens/java1.jpg" class="img-fluid" alt="Java">
+                    </div>
+                    <div class="col-md-4 project-box seo">
+                        <img src="imagens/google-seo.jpg" class="img-fluid" alt="Google SEO">
+                    </div>
+                    <div class="col-md-4 project-box js">
+                        <img src="imagens/javascript1.jpg" class="img-fluid" alt="Javascript">
+                    </div>
+
+                    <div class="col-md-4 project-box react">
+                        <img src="imagens/react1.jpg" class="img-fluid" alt="Google SEO">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div> 
+        <!--call to action-->
+        <div id="call-area">
+            <div class="container">
+                <div class="row">
+                    <p>Deseja ter um website como este?</p>
+                    <button class="main-btn" id="call-btn">Contacto</button>
+                </div>
+            </div>
+        </div>
+         
     </div>
 </main>
 

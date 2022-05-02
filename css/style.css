@@ -99,3 +99,171 @@ header, .navbar{
 .category-box:hover>i, .category-box:hover>h4{
     color: var(--cor01);
 }
+
+/*--dados do blog--*/
+.circle-box{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+/*--login para newslatter--*/
+
+#apply-area{
+    height: 500px;
+    margin-top: 3rem;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img{
+    background-image: url('../imagens/newslatter.jpg');
+    background-size: cover;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#apply-btn:hover{
+    border-color: var(--cor01);
+    background-color: var(--cor01);
+}
+
+/*filtrar por categoria*/
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#filtro-area .filter-btn{
+    color: var(--cor01);
+    border: 1px solid var(--cor01);
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#filtro-area .filter-btn.active, #filtro-area .filter-btn:hover{
+    color: #FFF;
+    background-color: var(--cor01);
+}
+
+/*email para newslatter*/
+#news-area{
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+#news-area p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#email-input{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid var(--cor01);
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+.news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid var(--cor01);
+    background-color: var(--cor01);
+    text-transform: uppercase;
+    color: #FFF;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+.news-btn:hover{
+    background-color: #FFF;
+    color: var(--cor01);
+}
+
+/*call to action*/
+
+#call-area{
+    background-color: var(--cor01);
+    text-transform: uppercase;
+}
+
+#call-area .container{
+    padding: 40px 100px;
+}
+
+#call-area .row{
+    display: block;
+    text-align: center;
+}
+
+#call-area p{
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn{
+    background-color: #FFF;
+    color: var(--cor01);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+    border-radius: 13px;
+}
