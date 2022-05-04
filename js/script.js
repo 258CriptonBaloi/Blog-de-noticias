@@ -112,9 +112,18 @@ $(document).ready(function(){
         $('.main-btn').removeClass('active');
         $(this).addClass('active');
 
-        if(type == 'design-btn'){
+        if(type == 'seo-btn'){
+            eachBoxes('seo', boxes);
+        }else if(type == 'design-btn'){
             eachBoxes('design', boxes);
-
+        }else if(type == 'java-btn'){
+            eachBoxes('java', boxes);
+        }else if(type == 'react-btn'){
+            eachBoxes('react', boxes);
+        }else if(type == 'js-btn'){
+            eachBoxes('js', boxes);
+        }else {
+            eachBoxes('all', boxes);
         }
 
     });
