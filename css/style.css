@@ -64,6 +64,37 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
+.search-icon:hover{
+    color:#55A;
+}
+
+/*barner*/
+#barner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:url('imagens/carousel-img-computador.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #ffffff;
+}
+
+#barner h1{
+    background: var(--cor01);
+    border-radius: 8px;
+}
+
+#barner h3{
+    background: black;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 24px;
+}
+
 /*sobre tecnologias de informacao...*/
 #about-area{
     background-color: #F9F9F9;
@@ -126,54 +157,6 @@ header, .navbar{
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
-}
-
-/*--login para newslatter--*/
-
-#apply-area{
-    height: 500px;
-    margin-top: 3rem;
-}
-
-#apply-area .container-fluid, #apply-area .row {
-    height: 100%;
-}
-
-#apply-area .apply-box{
-    text-align: center;
-    padding: 70px 50px;
-}
-
-#company-img{
-    background-image: url('../imagens/newslatter.jpg');
-    background-size: cover;
-}
-
-#pattern-img h4{
-    margin-top: 8%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color:var(--cor01);
-}
-
-#pattern-img p{
-    color: black;
-}
-
-#apply-btn{
-    display: block;
-    height: auto;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    background-color: var(--cor01);
-    text-decoration: none;
-}
-
-#apply-btn:hover{
-    border-color: var(--cor01);
-    background-color: var(--cor01);
 }
 
 /*filtrar por categoria*/

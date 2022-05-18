@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TICPEDIA-Blog de noticias sobre tecnologia</title>
+    <title>TECHPEDIA-Blog de noticias sobre tecnologia</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -36,12 +36,20 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                 <div class="navbar-nav">
                     <a class="nav-item nav link" id="home-menu">Home</a>
+                    <a class="nav-item nav link" id="blog-menu">Blog</a>
                     <a class="nav-item nav link" id="newsletter-menu">Newsletter</a>
                     <a class="nav-item nav link" id="login-menu">Cadastrar-se</a>
                     <a class="nav-item nav link" id="about-menu">Sobre-nos</a>
                     <a class="nav-item nav link" id="contact-menu">Contacto</a>
+                    <div class="searchbox">
+                      <input type="text" placeholder="Pesquise aqui"> 
+                    </div>
+                    <a class="search-icon" href="#">
+                        <i class="fas fa-search search-icon"></i>
+                    </a>
                 </div>
-            </div>   
+            </div> 
+              
         </nav>
 
     </div>
@@ -50,50 +58,10 @@
 
 <main>
     <div class="container-fluid">
-        <!--slider-->
-        <div id="mainSlider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-                <li data-target="#mainSlider" data-slide-to="1" ></li>
-                <li data-target="#mainSlider" data-slide-to="2" ></li>
-                <li data-target="#mainSlider" data-slide-to="3" ></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="imagens/carousel-img-computador.jpg" class="d-block w-100" alt="Imagem de computador">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Noticias sobre o mundo tecnologico voce encontra aqui!</h2>
-                        <p>Acompanhe todas as notícias de última hora do mundo tecnologico,toda a atualidade e cobertura. Notícias do dia, fotos e vídeos seja o primeiro a saber.Cobertura abrangente e atualizada, agregada de fontes do mundo inteiro</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="imagens/carousel-img-dados.jpg" class="d-block w-100" alt="Imagem de dados">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Noticias sobre o mundo tecnologico voce encontra aqui!</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="imagens/carousel-img-oculos.jpg" class="d-block w-100" alt="Imagem de oculos">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Noticias sobre o mundo tecnologico voce encontra aqui!</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="imagens/carousel-img-server.jpg" class="d-block w-100" alt="Imagem de servidor">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Noticias sobre o mundo tecnologico voce encontra aqui!</h2>
-                    </div>
-                </div>
-
-            </div>  
-            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <!--barner-->
+        <div id="barner">
+            <h1>&lt;TECHPEDIA/&gt;</h1>
+            <h3>As melhores noticias sobre tecnologia voce so encontra aqui</h3>   
         </div>
         <!--sobre tecnologia de informacao e...-->
         <div id="about-area">
@@ -193,21 +161,7 @@
                 </form>
             </div>
         </div>
-        <!--login para newslatter-->
-        <div id="apply-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 apply-box" id="company-img"></div>
-                    <div class="col-md-6 apply-box" id="pattern-img">
-                        <h4>Cadastrar-se</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reiciendis autem voluptas nostrum. Eos quibusdam animi non voluptates voluptatem quod laudantium, aperiam culpa eaque, atque quo possimus illum, eius totam.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci explicabo vel, eaque earum.?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vero velit excepturi. Eius, enim adipisci optio cumque sed officia explicabo perspiciatis quia quisquam beatae voluptates sint natus, eum iste excepturi!</p>
-                        <a href="#" class="main-btn" id="apply-btn"> Cadastrar-se</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!--filtrar por categoria-->
         <div class="filtro-area">
             <div class="container">
@@ -300,7 +254,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Desenvolvido por <a href="#">Blog Pedia</a> &copy;2022</p>
+                    <p>Desenvolvido por <a href="#">TECHPEDIA</a> &copy;2022</p>
                 </div>
             </div>
         </div>

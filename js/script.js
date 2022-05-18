@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     let circleA =  new ProgressBar.Circle(containerA,{
 
-        color:'#55F',
+        color:'#FFF',
         strokeWidth:8,
         duration: 1400,
         from:{ color: '#AAA'},
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     let circleB =  new ProgressBar.Circle(containerB,{
 
-        color:'#55F',
+        color:'#FFF',
         strokeWidth:8,
         duration: 2100,
         from:{ color: '#AAA'},
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
     let circleC =  new ProgressBar.Circle(containerC,{
 
-        color:'#55F',
+        color:'#FFF',
         strokeWidth:8,
         duration: 2800,
         from:{ color: '#AAA'},
@@ -64,7 +64,7 @@ $(document).ready(function(){
 
     let circleD =  new ProgressBar.Circle(containerD,{
 
-        color:'#55F',
+        color:'#FFF',
         strokeWidth:8,
         duration: 3500,
         from:{ color: '#AAA'},
@@ -100,7 +100,7 @@ $(document).ready(function(){
 
     //parallax
     setTimeout(function(){
-        $('#data-area').parallax({imageSrc: 'imagens/paralax1.jpg'});
+        $('#data-area').parallax({imageSrc: 'imagens/paralax11.jpg'});
     }, 250);
 
     //filtro por categoria
