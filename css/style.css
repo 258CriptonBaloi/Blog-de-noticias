@@ -75,7 +75,7 @@ header, .navbar{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background:url('imagens/carousel-img-computador.jpg');
+    background-image:url('imagens/carousel-img-computador.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -265,6 +265,55 @@ header, .navbar{
     width: auto;
     letter-spacing: 2px;
     border-radius: 13px;
+}
+
+
+/*Blog Post*/
+.page-heading{
+    color: #55A;
+    font-size: 32px;
+    font-family: var(--fonte-conteudo);
+    border-left: 3px solid black;
+    border-right: 3px solid black ;
+    transition: all 0.4s;
+    display: inline-block;
+    padding: 4px 32px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.blog-title{
+    color: #55A;
+}
+
+#post-container{
+    display: flex;
+}
+
+#blogpost{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-left: 1px solid #999;
+}
+
+#blog-post p{
+    color: black;
+}
+
+#blogpost .card{
+    width: 100%;
+}
+
+/*SideBar*/
+#sidebar{
+    background: var(--cor01);
+    flex: 1;
+    padding: 8px 16px;
+    color: white;
+    box-shadow: inset 27px 0 51px -18px rgba(0, 0,0, 0.75);
+
 }
 
 /*footer*/
