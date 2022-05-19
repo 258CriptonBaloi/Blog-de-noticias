@@ -75,7 +75,7 @@ header, .navbar{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image:url('imagens/carousel-img-computador.jpg');
+    background-image:url('../imagens/background-home.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -117,6 +117,9 @@ header, .navbar{
 .main-text{
     color: black;
 }
+
+/*Imagens do blogpost*/
+
 
 /*categorias*/
 .category-box{
@@ -278,8 +281,8 @@ header, .navbar{
     transition: all 0.4s;
     display: inline-block;
     padding: 4px 32px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-top: 120px;
+    margin-bottom: 60px;
 
 }
 
@@ -314,6 +317,11 @@ header, .navbar{
     color: white;
     box-shadow: inset 27px 0 51px -18px rgba(0, 0,0, 0.75);
 
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: white;
 }
 
 /*footer*/

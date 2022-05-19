@@ -36,9 +36,9 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                 <div class="navbar-nav">
                     <a href="../index.html" class="nav-item nav link" id="home-menu">Home</a>
-                    <a class="nav-item nav link" id="blog-menu">Blog</a>
+                    <a href="blogpost.html" class="nav-item nav link" id="blog-menu">Blog</a>
                     <a class="nav-item nav link" id="newsletter-menu">Newsletter</a>
-                    <a href="loginpage.html" class="nav-item nav link" id="login-menu">Cadastrar-se</a>
+                    <a class="nav-item nav link" id="login-menu">Cadastrar-se</a>
                     <a class="nav-item nav link" id="about-menu">Sobre-nos</a>
                     <a class="nav-item nav link" id="contact-menu">Contacto</a>
                     <div class="searchbox">
@@ -57,43 +57,16 @@
 </header>
 
 <main>
-    <h2 class="page-heading">Blog Post's</h2>
-    <div id="post-container">
-        <section id="blog-post">
-            <div class="card">
-                <div class="card-meta-blogpost">
-                   Postado pelo admin 19/05/2022 em
-                   <a href="#">TECHPEDIA</a>
-                </div>
-                <div class="card-image">
-                    <img src="#" alt="Google seo">
-                </div>
-                <div class="card-description">
-                    <h3>Google Seo</h3>
-                    <p>SEO — sigla para Search Engine Optimization, que, em português, significa Otimização para Mecanismos de Busca. Trata-se de um conjunto de técnicas que tem como objetivo posicionar uma ou mais páginas de destino entre os melhores resultados dos mecanismos de busca.</p>
-                    <p>Por meio das técnicas de SEO, então, é possível otimizar o site para que ele ultrapasse os demais e esteja na primeira página de resultados do Google, chamando a atenção dos usuários com o conteúdo mais relevante para suas buscas.</p>
-                    <p>Fique ligadinho a TECHPEDIA para mais conteudos sobre tecnologia.</p>
 
-                </div>
+    <div class="registration-form">
+        <i class="fa-solid fa-user"></i>
+        <form action="loginpage.html" method="post">
+            <input type="text" placeholder="Nome de Usuario" class="txt">
+            <input type="text" placeholder="E-mail" class="txt">
+            <input type="password" placeholder="Senha" class="txt">
+            <input type="button" value="Create an account" class="btn">
 
-            </div>
-            <div class="comment-section">
-                Comentarios
-            </div>
-
-        </section>
-        <aside id="sidebar">
-            <h3>Categorias</h3>
-            <ol>
-                <li><a href="#">Google SEO</a></li>
-                <li><a href="#">UI/UX Design</a></li>
-                <li><a href="#">Java</a></li>
-                <li><a href="#">React</a></li>
-                <li><a href="#">JavaScript</a></li>
-                <li><a href="#">Samsung S22</a></li>
-            </ol>
-        </aside>
-
+        </form>
     </div>
 
 </main>
