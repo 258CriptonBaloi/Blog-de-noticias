@@ -118,8 +118,92 @@ header, .navbar{
     color: black;
 }
 
-/*Imagens do blogpost*/
+/*Blogpost*/
+.registration-form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:url('../imagens/carousel-img-oculos.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #ffffff;
+}
 
+.registration-form i{
+    font-size: 80px;
+    color: #55F;
+}
+
+.singup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.txt{
+    margin: 20px 0px;
+    border-radius: 8px;
+}
+
+.btn{
+    color: white;
+    background: #55F;
+    border-radius: 40px;
+}
+
+.singup-form a{
+    color: white;
+}
+
+/*Newslatter*/
+.newslatter{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image:url('../imagens/newslatter-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #ffffff;
+}
+
+.newslatter-box{
+    background: rgba(0, 0, 0, 0.342);
+    padding: 60px 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+.newslatter-box h1{
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #FFF;
+}
+
+.newslatter-box input[type="text"]{
+    width: calc(100% - 120px);
+    float: left;
+    border: 2px solid transparent;
+    border-radius: 8px 0 0 8px;
+}
+
+.newslatter-box input[type="submit"]{
+    background-color: #55F;
+    color: #FFF;
+    width: 120px;
+    float: left;
+    border: 2px solid transparent;
+    border-radius: 0 8px 8px 0;
+}
 
 /*categorias*/
 .category-box{
