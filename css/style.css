@@ -75,7 +75,7 @@ header, .navbar{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image:url('../imagens/background-home.jpg');
+    background-image:url('../imagens/home-background.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
